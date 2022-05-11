@@ -18,12 +18,7 @@
 	</test>
 
 
-	<test name="ExpediaBookingPage">
 	
-		<classes>
-			<class name="com.Ba.expedia.tests.BookingTests" />
-		</classes>
-	</test>
 
 
 
