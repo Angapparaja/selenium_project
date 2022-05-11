@@ -28,8 +28,8 @@ public class Driverfactory {
 		System.out.println("browser name is :" + browserName);
 		
 		if(browserName.equalsIgnoreCase("chrome")) {
-			WebDriverManager.chromedriver().setup();
-		//	System.setProperty("webdriver.chrome.driver", "./src/test/resources/ChromeDriver/chromedriver.exe");
+		//	WebDriverManager.chromedriver().setup();
+			System.setProperty("webdriver.chrome.driver", "./src/test/resources/ChromeDriver/chromedriver.exe");
 			driver =new ChromeDriver();
 //			tlDriver.set(new ChromeDriver());  //thread localdriver aa initilize pannurom
 		}
