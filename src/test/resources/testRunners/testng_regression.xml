@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Expedia project program" thread-count="2"
+	parallel="none" verbose="4">
+
+	<listeners>
+	
+
+		
+	</listeners>
+
+	<test name="ExpediaTravelPage">
+		
+		<classes>
+			<class name="com.Ba.expedia.tests.TravelpageTests" />
+		</classes>
+	</test>
+
+
+	<test name="ExpediaBookingPage">
+	
+		<classes>
+			<class name="com.Ba.expedia.tests.BookingTests" />
+		</classes>
+	</test>
+
+
+
+
+</suite>

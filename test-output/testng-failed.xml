@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Expedia project program]" guice-stage="DEVELOPMENT" verbose="4">
+  <test thread-count="2" name="ExpediaTravelPage(failed)" verbose="4">
+    <classes>
+      <class name="com.Ba.expedia.tests.TravelpageTests">
+        <methods>
+          <include name="SelectFirstDate"/>
+          <include name="tearDown"/>
+          <include name="selectTraveller"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Ba.expedia.tests.TravelpageTests -->
+    </classes>
+  </test> <!-- ExpediaTravelPage(failed) -->
+  <test thread-count="2" name="ExpediaBookingPage(failed)" verbose="4">
+    <classes>
+      <class name="com.Ba.expedia.tests.BookingTests">
+        <methods>
+          <include name="clickCheapestHotel"/>
+          <include name="ischeckaRatingExist"/>
+          <include name="selectAmount"/>
+          <include name="selectHotelList"/>
+          <include name="tearDown"/>
+          <include name="selectGuestRating"/>
+          <include name="cheapesthotels"/>
+          <include name="bookingPageSetup"/>
+          <include name="selectDropdown"/>
+          <include name="ischeckaAmountExist"/>
+          <include name="isCheckLunchincluded"/>
+          <include name="isCheckDinnerincluded"/>
+          <include name="selectDinner"/>
+          <include name="selectLunch"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Ba.expedia.tests.BookingTests -->
+    </classes>
+  </test> <!-- ExpediaBookingPage(failed) -->
+</suite> <!-- Failed suite [Expedia project program] -->
